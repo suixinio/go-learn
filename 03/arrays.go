@@ -24,9 +24,11 @@ func main() {
 
 	fmt.Println(arr1, arr2, arr3)
 	fmt.Println(grid)
+
 	for i, v := range arr3 {
 		fmt.Println(i, v)
 	}
+
 	printArray(arr1)
 	printArray(arr3)
 	fmt.Println(arr1, arr3)
